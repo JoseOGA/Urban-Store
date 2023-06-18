@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Iniciar sesion</title>
+	<link rel="stylesheet" href="login.css">
+	<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="container">
+		<center><h1 class="label Titulos">Iniciar Sesión</h1></center>
+		<form class="login_form" action="Prueba.html" method="post" name="form" onsubmit="return validated()">
+			<div class="font Titulos">Introducir correo electronico</div>
+			<input autocomplete="off" type="text" name="email">
+			<div id="email_error">Introduce bien tu correo</div>
+			<div class="font font2 Titulos">Contraseña</div>
+			<input type="password" name="password">
+			<div id="pass_error">Introduce bien tu contraseña</div>
+			<button type="submit ">INICIAR</button>
+		</form>
+	</div>	
+	<script src="login.js"></script>
+</body>
+</html>
